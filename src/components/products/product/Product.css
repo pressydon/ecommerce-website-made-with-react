@@ -1,0 +1,32 @@
+.product-root{
+  width: 300px;
+  /* background: rgba(184, 182, 182, 0.16); */
+  position: relative;
+  height: 330px;
+  box-shadow: rgba(184, 182, 182, 0.16) 5px 10px 10px ;
+}
+.product-root img{
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+
+.price-column{
+  display: flex;
+  justify-content: space-between;
+  padding:0 10px;
+  font-size: 18px;
+}
+.card-content p{
+  margin-top: -20px;
+  font-size: 18px;
+  padding:0 10px;
+  font-weight: 300;
+}
+.cart-button{
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  cursor: pointer;
+  color: rgba(22, 117, 13, 0.669);
+}

@@ -1,0 +1,23 @@
+.products-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap:10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.individual-product{
+    margin-right: 20px;
+}
+
+@media screen and (max-width:960px) {
+    .products-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    .individual-product{
+        margin-top: 20px;
+    }
+}

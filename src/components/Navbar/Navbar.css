@@ -1,0 +1,55 @@
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(184, 182, 182, 0.16) 5px 10px 10px ;
+
+}
+
+
+.logo{
+    width: 200px;
+    height: 100px;
+    position: relative;
+    cursor: pointer;
+}
+.logo img{
+    width: 100%;
+    object-fit: contain;
+}
+.logo h3{
+    position: absolute;
+    top: 0%;
+    right: 50%;
+    transform: translate(50%, 20%);
+    color: white;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.nav-cart-container{
+    /* position: relative; */
+    margin: 20px;
+}
+.nav-cart-container i{
+    font-size: 30px;
+    cursor: pointer;
+    color: rgb(42, 138, 165);
+    position: relative;
+}
+.badge{
+    position: absolute;
+    top: -5px;
+    right: 16px;
+    color: white;
+    background: red;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 15px;
+    font-weight: 800;
+    cursor: pointer;
+    
+}
